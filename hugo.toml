@@ -17,7 +17,7 @@ enableEmoji = true
 ignoreErrors = ["error-remote-getjson"]
 
 disqusShortname = ""
-googleAnalytics = ""
+# googleAnalytics = ""
 
 [outputs]
 home = ["HTML", "JSON", "RSS"]
@@ -65,10 +65,10 @@ weight = 100
 
 [params]
 author = "shikixyx"
-description = "A simple and clean theme for Hugo"
+# description = "A simple and clean theme for Hugo"
 keywords = "blog,developer,personal"
 img_home = "img/bg-home.jpg"
-img_404 = "img/404-bg.jpg"
+img_404 = "img/bg-404.jpg"
 
 useFaviconGenerator = true
 
@@ -80,7 +80,7 @@ custom_css = [
 enable = true
 gravatarEmail = ""
 # Overwritten by your gravatar image if `gravatarEmail` is filled
-avatar = "img/home-bg.jpg"
+avatar = "img/avatar.jpg"
 bio = "a personal website"
 
 [params.social]
